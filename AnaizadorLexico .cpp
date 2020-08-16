@@ -15,7 +15,7 @@ void EstadosImpresion();//FUNCION ENCARGADA DE MANDAR LOS MENSAJES DE LOS CARACT
 void buscarRESERVADOSID();//FUNCION ENCARGADA DE BUSCAR PALABRAS RESERVADAS EN NUESTRO CODIGO.
 void Color(int Background,int Text);//FUNCION ENCARGADA DE CAMBIO DE COLORES EN PANTALLA.
 
-const char *RESERVADOSID[] = {"si","entero","inicio","sino","finsi","repetir","hasta","mientras","leer","imprimir","vacio","cursor","definir","hacer"};
+const char *RESERVADOSID[] = {"goto","si","entero","inicio","sino","finsi","repetir","hasta","mientras","leer","imprimir","vacio","cursor","definir","hacer"};
 int tamIndicador=sizeof(RESERVADOSID)/sizeof(char *);//Indica el tamaño de nuestras palabras reservadas y el tamaño de memoria de el char
 int i;
 char identificador[150];
