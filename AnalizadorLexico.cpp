@@ -1,3 +1,9 @@
+/*
+* Gertrudiz Julissa Anariba Zavala   20151900003
+* Josue Alejandro Diaz Berrios       20171000836
+* Sergio Reyniery Garay Godoy        20141004605
+* Carlos José Fernández Sandoval     20151003238
+* */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -10,7 +16,7 @@ void buscarRESERVADOSID();//FUNCION ENCARGADA DE BUSCAR PALABRAS RESERVADAS EN N
 void Color(int Background,int Text);//FUNCION ENCARGADA DE CAMBIO DE COLORES EN PANTALLA.
 
 const char *RESERVADOSID[] = {"si","entero","inicio","sino","finsi","repetir","hasta","mientras","leer","imprimir","vacio","cursor","definir","hacer"};
-int tamIndicador=sizeof(RESERVADOSID)/sizeof(char *);//Indica el tamaÃ±o de nuestras palabras reservadas y el tamaÃ±o de memoria de el char
+int tamIndicador=sizeof(RESERVADOSID)/sizeof(char *);//Indica el tamaño de nuestras palabras reservadas y el tamaño de memoria de el char
 int i;
 char identificador[150];
 char temp[2];
