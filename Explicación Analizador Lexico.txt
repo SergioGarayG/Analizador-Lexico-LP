@@ -1,0 +1,19 @@
+Explicacion Codigo Fuente
+
+Explicacion Automata.
+En primer lugar tenemos la instruccion mientras-repetir 
+Esta instrucción nos permite hacer tres principales funciones
+1- Imprimir valor ya sea una cadena o un digito
+2- Asignacion de un valor en una variable
+3- asignacion de de una operacion en una variable
+
+Estas instrucciones se pueden repetir cuantas veces se desee sin terminar el ciclo.
+
+Dentro del ciblo se puede iniciar una funcion de condición la cual esta definida por 
+las siguientes condiciones:
+
+1- comparar numeros y variabes de tipo entero de todas las combinaciones posibles
+2- comparar si dos cadenas son iguales o distintas
+
+Y por ultimo tiene una instrcción goto donde recive los valores enteros.
+
