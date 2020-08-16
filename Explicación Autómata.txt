@@ -1,3 +1,21 @@
+Explicacion Codigo Fuente
+Analizador Lexico C++
+Nuestro Programa constituye la explicacion de un Analiador Lexicografico hecho con el 
+IDE de Zinjai version Zinjai-w32-20191006 con la extension de C++ .cpp.
+En la carpeta existe un archivo .txt llamado "programa.txt" que es el que contiene las palabras a probar
+en el analizador lexico.
+Para empezar el programa siempre debe empezar con la palabra reservada "inicio" si se escribe algo
+distinto en el programa mandara error debe empezar con inicio.
+Si se cambia el nombre del "programa.txt" el mandara un error que dice "Archivo no existe".
+
+Nuestro programa lee caracteres reservados mencionados en el codigo asi como "inicio","goto" entre otras.
+Existen cuatro funciones en nuestro programa claves que son encargadas de hacer que el analizador lexico lea el documento.
+
+La palabra reservada fopen abre el archivo y el printf("%c",caracter); es el que muestra el las palabras a evaluar por el analizador.
+Existe un archivo Tokens.html que contiene los TOKEN de nuestro Analizador Lexico se debe ejecutar para entender mejor la sintaxis del mismo.
+
+
+Explicacion Automata.
 En primer lugar tenemos la instruccion mientras-repetir 
 Esta instrucción nos permite hacer tres principales funciones
 1- Imprimir valor ya sea una cadena o un digito
@@ -12,4 +30,5 @@ las siguientes condiciones:
 1- comparar numeros y variabes de tipo entero de todas las combinaciones posibles
 2- comparar si dos cadenas son iguales o distintas
 
-Y por ultimo tiene una instrcción goto donde recive los valores enteros. 
+Y por ultimo tiene una instrcción goto donde recive los valores enteros.
+
